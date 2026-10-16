@@ -39,7 +39,11 @@ services:
             {"name":"索尼采集站","url":"https://suonizy.net/api.php/provide/vod/"},
             {"name":"虎牙资源站","url":"https://huyazy.net/api.php/provide/vod/"},
             {"name":"速播资源站","url":"https://subocj.com/api.php/provide/vod/"},
-            {"name":"金鹰资源站","url":"https://jyzyapi.com/provide/vod/"} ]
+            {"name":"金鹰资源站","url":"https://jyzyapi.com/provide/vod/"},
+            {"name":"大X子资源站","url":"https://apidanaizi.com/api.php/provide/vod/"},
+            {"name":"玉兔资源站","url":"https://apiyutu.com/api.php/provide/vod/"},
+            {"name":"最大资源站","url":"http://zuidazy.me/api.php/provide/vod/"}
+            ]
       # 可选：预置直播源（M3U 订阅，JSON 数组），epg 为可选节目单地址
       # - DEFAULT_LIVE_SOURCES=[{"name":"示例直播源","url":"https://example.com/list.m3u","epg":"https://example.com/epg.xml.gz"}]
       # 可选：预置数据源订阅（SourceList JSON 链接，一次下发点播源 + 直播源）
